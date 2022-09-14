@@ -1,13 +1,13 @@
 import React from 'react';
 import { MainContainer, DateTitle, CityTitle, TempImage, Temperature, Desc, MinMax, Climate } from '../../style/styled';
 
-
-
 export default function Info() {
+  
+
   return (
     <MainContainer className='main-container'>
-      <DateTitle className='date'>Terça, 13/09/2022</DateTitle>
       <CityTitle className='city'>Paris, FR</CityTitle>
+      <DateTitle className='date'>Terça, 13/09/2022</DateTitle>
       <div className='image-div'>
         <TempImage src='' alt='imagem do clima' />
       </div>
