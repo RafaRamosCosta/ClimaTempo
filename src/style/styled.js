@@ -21,10 +21,13 @@ export const Input = styled.input`
     }
 `;
 
-export const Icon = styled.i`
+export const ButtonIcon = styled.button`
     position: absolute;
-    top: 28.5vh;
+    top: 28.3vh;
     right: 80vh;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 `;
 
 export const WeatherCard = styled.div`
