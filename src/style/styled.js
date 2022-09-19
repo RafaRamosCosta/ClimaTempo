@@ -4,6 +4,11 @@ export const SearchBar = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  .alt-icon {
+    position: absolute;
+    right: 3.5vw;
+    top: 5.4vh;
+  }
 `;
 
 export const Input = styled.input`
@@ -17,21 +22,21 @@ export const Input = styled.input`
     color: #fff;
     background-color: rgba(255, 255, 255, 0.2);
     ::placeholder {
-        color: #C3C2C8 ;
+        color: white;
     }
 `;
 
-export const ButtonIcon = styled.button`
+export const Icon = styled.i`
     position: absolute;
-    top: 28.3vh;
-    right: 80vh;
+    top: 4.3vh;
+    right: 3.5vw;
     background-color: transparent;
     border: none;
     cursor: pointer;
 `;
 
 export const WeatherCard = styled.div`
-  background-color: #3F26B9;
+  backdrop-filter: blur(20px);
   height: auto;
   width: 100%;
   max-width: 400px;
@@ -55,7 +60,7 @@ export const CityTitle = styled.h2`
 `;
 
 export const TempImage = styled.img`
-    width: 40vw;
+    width: 6vw;
 `;
 
 export const Temperature = styled.h3`
@@ -79,4 +84,11 @@ export const Climate = styled.div`
     font-size: 12pt;
     padding-top: 1vh;
     justify-content: space-between;
+`;
+
+export const Main = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `;
