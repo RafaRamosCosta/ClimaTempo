@@ -56,7 +56,7 @@ export const DateTitle = styled.h1`
 
 export const CityTitle = styled.h2`
     font-size: 25pt;
-    padding-top: 1vh;
+    padding-top: 2.5vh;
 `;
 
 export const TempImage = styled.img`
@@ -64,12 +64,12 @@ export const TempImage = styled.img`
 `;
 
 export const Temperature = styled.h3`
-    font-size: 26pt;
+    font-size: 30pt;
 `;
 
 export const Desc = styled.span`
     text-transform: capitalize;
-    font-size: 15pt;
+    font-size: 12pt;
 `;
 
 export const MinMax = styled.div`
